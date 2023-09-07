@@ -1,0 +1,92 @@
+body{
+    font-family: 'Cinzel Decorative', cursive;
+
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+.backgroundimg{
+    background-image: url("finalback1.jpg");
+    height: 1024px;
+  background-size: cover;
+}
+.navtext{
+    font-weight: 600 !important;
+}
+
+.maincontent{
+    padding-top: 200px;
+    font-size: 56px !important;
+    font-weight: 800;
+}
+.maincontentp{
+    font-size: 28
+    px !important;
+}
+.btn2{
+    background-color: #625555 !important;
+    color: white;
+}
+.btn1{
+    background-color: #1F6D7D !important;
+    color: white;
+}
+.btn1:hover{
+    color: white !important;
+    background-color: rgb(35, 35, 35) !important;
+}
+.btn2:hover{
+    color: white !important;
+    background-color: rgb(35, 35, 35) !important;
+}
+.background2{
+    background-image: url("section-2.jpg");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.mainheading2{
+   
+    font-size: 56px !important;
+    font-weight: 600;
+    color: #454040;
+}
+.section4back{
+    background-image: url("ratting.png");
+    background-size: cover;
+    height: 410px;
+    background-repeat: no-repeat;
+}
+.footorbackground{
+    background-image: url("footorimage.png");
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navtext:hover{
+border-bottom: 1px solid #ffffff !important; 
+}
+.footertext{
+    font-size: 24px;
+}
+.footersubtext{
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+}
+.counterpad{
+    padding-top: 150px !important;
+}
+@media only screen and (max-width: 720px)
+{
+    .backgroundimg{
+        background-position: right;
+    }
+}
+/* aboutus */
+.aboutusbackgroundimg{
+    background-image: url("aboutusimg.jpg");
+    height: 628px;
+  background-size: cover;
+}
